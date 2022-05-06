@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="conteiner">
+        <h1 id="tittle" >Qual o ano de seu nascimento?</h1>
+        <section id="content">
+            <div id="info">
+                <p>
+                    Ano de nascimento
+                    <input type="number" name="ano" id="txtano" minlength="0" >
+                </p> 
+                <p>
+                    sexo 
+                    <input type="radio" name="radsex" id="masc" checked>
+                    <label for="masc">Masculino</label>
+                    <input type="radio" name="radsex" id="fem">
+                    <label for="fem">feminino</label>
+                </p>
+                <input id="botao" type="button" value="verificar" onclick="verificar()" >
+            </div>
+            <div id="res">
+              preencha os dados acima para ver o resultado!!
+            </div>
+        </section>
+        <p id="paragraph">&copy;Curso em video</p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
